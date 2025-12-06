@@ -19,27 +19,27 @@ const Home = () => {
       id: 1,
       title: 'Construction Estimation',
       description: 'A comprehensive platform for contractors to generate detailed project estimates and manage construction workflows efficiently.',
-      tech: ['Next.js', 'TypeScript', 'Prisma', 'PostgreSQL', 'Cloudinary'],
+      tech: ['React.js', 'JavaScript'],
       link: 'https://constructionestimation.vercel.app',
-     // image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=500&h=300&fit=crop',
+      image: '/estimate.jpeg',
       gradient: 'from-orange-500 to-red-500',
     },
     {
       id: 2,
       title: 'Budgenix',
       description: 'A smart finance application for budgeting and expense tracking with real-time analytics and financial insights.',
-      tech: ['Next.js', 'React', 'MongoDB', 'TypeScript', 'Chart.js'],
+      tech: ['Vite', 'React', 'Prisma', 'JavaScript', 'Chart.js',"Cloudinary", "PostgreSQL" ],
       link: 'https://budgenix.vercel.app',
-      //image: 'https://images.unsplash.com/photo-1579532537598-459e186ff465?w=500&h=300&fit=crop',
+      image: '/financewise.png',
       gradient: 'from-green-500 to-emerald-500',
     },
     {
       id: 3,
       title: 'Novae E-commerce',
       description: 'A full-featured e-commerce platform with product management, shopping cart, and secure payment integration.',
-      tech: ['Next.js', 'TypeScript', 'Prisma', 'PostgreSQL', 'Stripe'],
+      tech: ['Next.js', 'TypeScript', 'Prisma', 'PostgreSQL', 'Flutterwave', "Mongodb", "Cloudinary"],
       link: 'https://novaecommerce.vercel.app',
-      //image: 'https://images.unsplash.com/photo-1557821552-17105176677c?w=500&h=300&fit=crop',
+      image: '/novae.jpg',
       gradient: 'from-purple-500 to-pink-500',
     },
   ];
@@ -48,7 +48,7 @@ const Home = () => {
     name: 'Full Stack Developer',
     tagline: 'Crafting digital experiences with clean code and modern design',
     description: 'Passionate developer with expertise in building scalable web applications. I love learning new technologies and pushing the boundaries of what\'s possible on the web. Specialized in full-stack development with a focus on performance and user experience.',
-    //image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop',
+    image: 'owner3.jpg',
   };
 
   return (
@@ -103,13 +103,13 @@ const Home = () => {
                 </a>
               </div>
               <div className="flex gap-4 pt-4">
-                <a href="https://github.com" className="p-3 bg-slate-800 rounded-lg hover:bg-slate-700 transition">
+                <a href="https://github.com/kolawolecyber" className="p-3 bg-slate-800 rounded-lg hover:bg-slate-700 transition">
                   <Github size={20} />
                 </a>
-                <a href="https://linkedin.com" className="p-3 bg-slate-800 rounded-lg hover:bg-slate-700 transition">
+                <a href="https://linkedin.com/abdulafeez-abdulakeem-133901146" className="p-3 bg-slate-800 rounded-lg hover:bg-slate-700 transition">
                   <Linkedin size={20} />
                 </a>
-                <a href="mailto:hello@example.com" className="p-3 bg-slate-800 rounded-lg hover:bg-slate-700 transition">
+                <a href="mailto:abdulakeemabdulafeez@gmail.com" className="p-3 bg-slate-800 rounded-lg hover:bg-slate-700 transition">
                   <Mail size={20} />
                 </a>
               </div>
@@ -117,7 +117,7 @@ const Home = () => {
             <div className="hidden md:block relative">
               <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-500 rounded-2xl blur-2xl opacity-30" />
               <Image
-                src={about.image}
+                src={"/owner3.jpg"}
                 alt="Profile"
                 width={400}
                 height={400}
@@ -134,9 +134,9 @@ const Home = () => {
           <h2 className="text-4xl font-bold mb-12">About Me</h2>
           <div className="grid md:grid-cols-3 gap-8">
             {[
-              { label: 'Projects Completed', value: '15+' },
-              { label: 'Years Learning', value: '3+' },
-              { label: 'Technologies', value: '20+' },
+              { label: 'Projects Completed', value: '3+' },
+              { label: 'Years Learning', value: '2+' },
+              { label: 'Technologies', value: '10+' },
             ].map((stat, idx) => (
               <div key={idx} className="p-6 bg-gradient-to-br from-slate-800 to-slate-900 rounded-lg border border-slate-700 hover:border-slate-500 transition">
                 <div className="text-3xl font-bold text-blue-400">{stat.value}</div>

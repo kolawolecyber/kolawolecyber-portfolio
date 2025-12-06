@@ -236,13 +236,13 @@ const Home = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="mailto:hello@example.com"
+              href="mailto:abdulakeemabdulafez@gmail.com"
               className="px-8 py-3 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg font-semibold hover:shadow-lg hover:shadow-blue-500/50 transition transform hover:scale-105 flex items-center justify-center gap-2"
             >
               <Mail size={20} /> Send Email
             </a>
             <a
-              href="https://github.com"
+              href="https://github.com/kolawolecyber"
               className="px-8 py-3 border border-slate-500 rounded-lg font-semibold hover:border-white hover:bg-white/5 transition flex items-center justify-center gap-2"
             >
               <Github size={20} /> Visit GitHub

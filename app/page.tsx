@@ -38,7 +38,7 @@ const Home = () => {
       title: 'Novae E-commerce',
       description: 'A full-featured e-commerce platform with product management, shopping cart, and secure payment integration.',
       tech: ['Next.js', 'TypeScript', 'Prisma', 'PostgreSQL', 'Flutterwave', "Mongodb", "Cloudinary"],
-      link: 'https://novaecommerce.vercel.app',
+      link: 'https://denovae.vercel.app',
       image: '/novae.jpg',
       gradient: 'from-purple-500 to-pink-500',
     },

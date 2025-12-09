@@ -256,9 +256,9 @@ const Home = () => {
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row justify-between items-center text-slate-400 text-sm">
           <div>© 2024 All rights reserved.</div>
           <div className="flex gap-6 mt-4 md:mt-0">
-            <a href="#" className="hover:text-white transition">Twitter</a>
-            <a href="#" className="hover:text-white transition">LinkedIn</a>
-            <a href="#" className="hover:text-white transition">GitHub</a>
+            <a href="https://x.com/abdulakeem55" className="hover:text-white transition">Twitter</a>
+            <a href="https://linkedin.com/abdulafeez-abdulakeem-133901146" className="hover:text-white transition">LinkedIn</a>
+            <a href="https://github.com/kolawolecyber" className="hover:text-white transition">GitHub</a>
           </div>
         </div>
       </footer>

@@ -114,7 +114,7 @@ const Home = () => {
                 </a>
               </div>
             </div>
-            <div className="relative">
+            <div className="relative mx-auto md:w-auto md:h-auto">
               <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-500 rounded-2xl blur-2xl opacity-30" />
               <Image
                 src={"/owner3.jpg"}

@@ -118,11 +118,12 @@ const Home = () => {
 ];
 
   const about = {
-    name: 'Full Stack Developer',
-    tagline: 'Crafting digital experiences with clean code and modern design',
-    description: 'Passionate developer with expertise in building scalable web applications. I love learning new technologies and pushing the boundaries of what\'s possible on the web. Specialized in full-stack development with a focus on performance and user experience.',
-    image: 'owner3.jpg',
-  };
+  name: 'Full Stack Developer',
+  tagline: 'Building modern, scalable web applications from frontend to backend',
+  description:
+    'I am a Full Stack Developer who enjoys building both frontend experiences and backend systems. I work with React, Next.js, TypeScript, Node.js, NestJS, PostgreSQL, MongoDB, and Prisma to build practical and scalable web applications. I am passionate about creating clean user experiences, designing reliable backend systems, and continuously improving my knowledge of system design, data-intensive applications, cloud computing, and modern software architecture.',
+  image: 'owner3.jpg',
+};
 
   return (
     <div className="min-h-screen bg-black text-white overflow-hidden">

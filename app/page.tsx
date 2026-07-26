@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { Github, Linkedin, Mail, ExternalLink, ArrowRight, Code2, Database, Palette } from 'lucide-react';
+import { Github, Linkedin, Mail, ExternalLink, ArrowRight, Code2, Database, Palette,ShieldCheck,Network } from 'lucide-react';
 
 const Home = () => {
   const [hoveredProject, setHoveredProject] = useState<number | null>(null);

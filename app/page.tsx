@@ -220,8 +220,8 @@ const Home = () => {
           <h2 className="text-4xl font-bold mb-12">About Me</h2>
           <div className="grid md:grid-cols-3 gap-8">
             {[
-              { label: 'Projects Completed', value: '3+' },
-              { label: 'Years Learning', value: '2+' },
+              { label: 'Projects Completed', value: '4+' },
+              { label: 'Years Learning', value: '3+' },
               { label: 'Technologies', value: '10+' },
             ].map((stat, idx) => (
               <div key={idx} className="p-6 bg-gradient-to-br from-slate-800 to-slate-900 rounded-lg border border-slate-700 hover:border-slate-500 transition">

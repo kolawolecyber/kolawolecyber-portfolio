@@ -9,10 +9,44 @@ const Home = () => {
   const [hoveredProject, setHoveredProject] = useState<number | null>(null);
 
   const skills = [
-    { category: 'Frontend', items: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS'], icon: Palette },
-    { category: 'Backend', items: ['Node.js', 'NestJS', 'Express'], icon: Code2 },
-    { category: 'Database', items: ['MongoDB', 'PostgreSQL', 'Prisma'], icon: Database },
-  ];
+  {
+    category: 'Frontend',
+    items: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'HTML', 'CSS'],
+    icon: Palette,
+  },
+  {
+    category: 'Backend',
+    items: ['Node.js', 'Express.js', 'NestJS', 'REST APIs'],
+    icon: Code2,
+  },
+  {
+    category: 'Database',
+    items: ['PostgreSQL', 'MongoDB', 'Prisma'],
+    icon: Database,
+  },
+  {
+    category: 'Authentication & Security',
+    items: ['JWT', 'bcrypt', 'OAuth', 'Passport.js', 'CORS'],
+    icon: ShieldCheck,
+  },
+  {
+    category: 'Cloud & Deployment',
+    items: ['Cloudinary', 'Vercel', 'Render', 'Supabase', 'Neon'],
+    icon: Cloud,
+  },
+  {
+    category: 'Architecture & System Design',
+    items: [
+      'System Design',
+      'Microservices',
+      'Monorepo',
+      'Redis',
+      'Kafka',
+      'RabbitMQ',
+    ],
+    icon: Network,
+  },
+];
 
   const projects = [
     {

@@ -49,34 +49,73 @@ const Home = () => {
 ];
 
   const projects = [
-    {
-      id: 1,
-      title: 'Construction Estimation',
-      description: 'A comprehensive platform for contractors to generate detailed project estimates and manage construction workflows efficiently.',
-      tech: ['React.js', 'JavaScript'],
-      link: 'https://constructionestimation.vercel.app',
-      image: '/estimate.jpeg',
-      gradient: 'from-orange-500 to-red-500',
-    },
-    {
-      id: 2,
-      title: 'Budgenix',
-      description: 'A smart finance application for budgeting and expense tracking with real-time analytics and financial insights.',
-      tech: ['Vite', 'React', 'Prisma', 'JavaScript', 'Chart.js',"Cloudinary", "PostgreSQL" ],
-      link: 'https://budgenix.vercel.app',
-      image: '/financewise.png',
-      gradient: 'from-green-500 to-emerald-500',
-    },
-    {
-      id: 3,
-      title: 'Novae E-commerce',
-      description: 'A full-featured e-commerce platform with product management, shopping cart, and secure payment integration.',
-      tech: ['Next.js', 'TypeScript', 'Prisma', 'PostgreSQL', 'Flutterwave', "Mongodb", "Cloudinary"],
-      link: 'https://denovae.vercel.app',
-      image: '/novae.jpg',
-      gradient: 'from-purple-500 to-pink-500',
-    },
-  ];
+  {
+    id: 1,
+    title: 'Construction Estimation',
+    description:
+      'A comprehensive platform for contractors to generate detailed project estimates and manage construction workflows efficiently.',
+    tech: ['React.js', 'JavaScript'],
+    link: 'https://constructionestimation.vercel.app',
+    image: '/estimate.jpeg',
+    gradient: 'from-orange-500 to-red-500',
+  },
+  {
+    id: 2,
+    title: 'Budgenix',
+    description:
+      'A smart finance application for budgeting and expense tracking with real-time analytics and financial insights.',
+    tech: [
+      'Vite',
+      'React',
+      'Prisma',
+      'JavaScript',
+      'Chart.js',
+      'Cloudinary',
+      'PostgreSQL',
+    ],
+    link: 'https://budgenix.vercel.app',
+    image: '/financewise.png',
+    gradient: 'from-green-500 to-emerald-500',
+  },
+  {
+    id: 3,
+    title: 'Novae E-commerce',
+    description:
+      'A full-featured e-commerce platform with product management, shopping cart, and secure payment integration.',
+    tech: [
+      'Next.js',
+      'TypeScript',
+      'Prisma',
+      'PostgreSQL',
+      'Flutterwave',
+      'MongoDB',
+      'Cloudinary',
+    ],
+    link: 'https://denovae.vercel.app',
+    image: '/novae.jpg',
+    gradient: 'from-purple-500 to-pink-500',
+  },
+  {
+    id: 4,
+    title: 'Personal Finance Dashboard',
+    description:
+      'A modern personal finance application designed to help users track income, manage expenses, monitor budgets, and visualize their financial activity.',
+    tech: ['Next.js', 'TypeScript', 'Tailwind CSS', 'PostgreSQL', 'Prisma'],
+    link: 'https://personal-finance-zeta-plum.vercel.app/',
+    image: '/personal-finance.png',
+    gradient: 'from-emerald-500 to-green-600',
+  },
+  {
+    id: 5,
+    title: 'Task Management',
+    description:
+      'A task management application designed to help users organize projects, manage tasks, track progress, and improve productivity through a clean and intuitive interface.',
+    tech: ['Next.js', 'TypeScript', 'Tailwind CSS', 'MongoDB', 'Prisma'],
+    link: 'https://taskmanagement-roan-chi.vercel.app',
+    image: '/task-management.png',
+    gradient: 'from-indigo-500 to-purple-600',
+  },
+];
 
   const about = {
     name: 'Full Stack Developer',

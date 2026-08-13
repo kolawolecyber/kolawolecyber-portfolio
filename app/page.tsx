@@ -131,7 +131,7 @@ const Home = () => {
 
   const about = {
   name: 'Abdulakeem Abdulafeez Kolawole',
-  tagline: 'Construction site supervisor & full-stack developer — both active, not a pivot.',
+  tagline: 'Full-stack developer who ships alone and checks everything twice — with a construction engineer's instinct for "does this actually hold up."',
 ',
   description:
     'Five apps shipped solo, no employer assigned any of them. My construction estimation platform replaced a slow legacy tool and cut manual work by roughly 80% — I understood the problem on the ground before I touched the code. I work in React, Next.js, TypeScript, Node.js, NestJS, PostgreSQL, MongoDB, and Prisma. I have caught and fixed real production bugs: a currency mismatch that nearly turned a ₦500 charge into ₦50,000, a payment flow that could have desynced orders and inventory on a dropped connection. Currently working through Designing Data-Intensive Applications and learning system design as I go — I would rather tell you what I have not yet implemented than let a skills list say it for me. ',

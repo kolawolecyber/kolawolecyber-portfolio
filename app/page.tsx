@@ -130,10 +130,11 @@ const Home = () => {
 ];
 
   const about = {
-  name: 'Full Stack Developer',
-  tagline: 'Building modern, scalable web applications from frontend to backend',
+  name: 'Abdulakeem Abdulafeez Kolawole',
+  tagline: 'Construction site supervisor & full-stack developer — both active, not a pivot.',
+',
   description:
-    'I am a Full Stack Developer who enjoys building both frontend experiences and backend systems. I work with React, Next.js, TypeScript, Node.js, NestJS, PostgreSQL, MongoDB, and Prisma to build practical and scalable web applications. I am passionate about creating clean user experiences, designing reliable backend systems, and continuously improving my knowledge of system design, data-intensive applications, cloud computing, and modern software architecture.',
+    'Five apps shipped solo, no employer assigned any of them. My construction estimation platform replaced a slow legacy tool and cut manual work by roughly 80% — I understood the problem on the ground before I touched the code. I work in React, Next.js, TypeScript, Node.js, NestJS, PostgreSQL, MongoDB, and Prisma. I have caught and fixed real production bugs: a currency mismatch that nearly turned a ₦500 charge into ₦50,000, a payment flow that could have desynced orders and inventory on a dropped connection. Currently working through Designing Data-Intensive Applications and learning system design as I go — I would rather tell you what I have not yet implemented than let a skills list say it for me. ',
   image: 'owner3.jpg',
 };
 
